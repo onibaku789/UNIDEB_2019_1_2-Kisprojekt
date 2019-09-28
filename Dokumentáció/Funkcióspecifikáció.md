@@ -1,12 +1,12 @@
-#Funkcióspecifikáció
+# Funkcióspecifikáció
 
-##Tartalomjegyzék
+## Tartalomjegyzék
 - [Követelménylista](#követelménylista)
 - [Használati esetek](#használati-esetek)
--[Képernyőkép tervek](#képernyőkép-tervek)
+- [Képernyőkép tervek](#képernyőkép-tervek)
 
 
 
-####Követelménylista
-####Használati esetek
-####Képernyőkép tervek
+#### Követelménylista
+#### Használati esetek
+#### Képernyőkép tervek

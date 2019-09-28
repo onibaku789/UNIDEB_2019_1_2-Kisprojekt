@@ -1,6 +1,6 @@
-#Követelményspecifikáció
+# Követelményspecifikáció
 * * *
-##Tartalomjegyzék
+## Tartalomjegyzék
 - [Áttekintés](#áttekintés)
 - [Jelenlegi helyzet](#jelenlegi-helyzet)
 - [Jelenlegi üzleti folyamatok](#jelenlegi-üzleti-folyamatok)
@@ -8,7 +8,7 @@
 
 
 
-####Áttekintés
-####Jelenlegi helyzet
-####Jelenlegi üzleti folyamatok
-####Kívánt üzleti folyamatok
+#### Áttekintés
+#### Jelenlegi helyzet
+#### Jelenlegi üzleti folyamatok
+#### Kívánt üzleti folyamatok

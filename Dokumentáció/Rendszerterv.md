@@ -1,6 +1,6 @@
-#Rendszerterv
+# Rendszerterv
 
-##Tartalomjegyzék
+## Tartalomjegyzék
 - [Bevezető](#bevezető)
 - [Fizikai környezet](#fizikai-környezet)
 - [Domain modell](#domain modell)
@@ -10,11 +10,11 @@
 - [Üzleti folyamatok](#üzleti-folyamatok)
 - [Tesztterv](#tesztterv)
 
-####Bevezető
-####Fizikai környezet
-####Domain modell
-####Architekturális terv
-####Adatbázis terv
-####Felhasználói felület
-####Üzleti folyamatok
-####Tesztterv
+#### Bevezető
+#### Fizikai környezet
+#### Domain modell
+#### Architekturális terv
+#### Adatbázis terv
+#### Felhasználói felület
+#### Üzleti folyamatok
+#### Tesztterv

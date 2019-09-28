@@ -3,7 +3,7 @@
 ## Tartalomjegyzék
 - [Bevezető](#bevezető)
 - [Fizikai környezet](#fizikai-környezet)
-- [Domain modell](#domain modell)
+- [Domain modell](#domain-modell)
 - [Architekturális terv](#architekturális-terv)
 - [Felhasználói felület](#felhasználói-felület)
 - [Adatbázis terv](#adatbázis-terv)

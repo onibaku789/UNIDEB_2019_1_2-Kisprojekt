@@ -18,8 +18,11 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - Szabad regisztráció egyedi felhasználói névvel
 - Tanárok tudjanak kvízeket létrehozni és kitölteni
 - Az aktuális kvízek listázhatóak és kitölthetőek legyenek
-- Diákok tudjanak kvízeket kitölteni
+- Diákok és a tanárok is tudjanak kvízeket kitölteni
 - Kvízeken elérhető pontszámok és az adott felhasználó által elért pontszámok megjelenítése
+- A három féle kvíz megadása (dolgozat, gyakorlás, házifeladat)
+- A dolgozat típusú kvíz időkorlátos legyen
+- A dolgozat és házi feladata kvízeket ne tudjon egy felhasználó egynél többször kitölteni
 - Minden felhasználó ki tudjon jelentkezni az oldalról
 #### Használati esetek
 #### Képernyőkép tervek

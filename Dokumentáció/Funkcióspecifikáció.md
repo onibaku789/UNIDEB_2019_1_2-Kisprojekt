@@ -15,6 +15,10 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 
 #### Követelménylista
 #### Kínált üzleti folyamatok
+######Diák üzleti folyamat
+![Diák üzleti folyamatok](./img/Diak_uzleti_modell.svg)<br>
+<br>
+######Oktató üzleti folyamat
 ![Oktató üzleti folyamatok](./img/oktató-üzleti-modell.svg)<br>
 ###### A megrendelő által kért funkciók
 - Szabad regisztráció egyedi felhasználói névvel

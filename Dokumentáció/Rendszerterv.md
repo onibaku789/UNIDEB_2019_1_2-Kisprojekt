@@ -146,6 +146,7 @@
        <td> "Következő kérdés" gombra kattintás, kiválasztott válasszal.
        <td> Siker, továbblépés a következő kérdésre.
       </tr>
+      
       <tr>
         <td>H0018
        <td>Kvíz

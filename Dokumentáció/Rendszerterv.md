@@ -112,16 +112,16 @@ ALTER TABLE `questions`<br>
 - **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 
 A gombok a submit, illetve a regisztrációs oldalra való átirányításért felelősek.
-![Login_page](./img/login-page.jpg)
+![Login_page](./img/Bejelentkező-oldal.PNG)
 
 - **Regisztráció**: A felhasználó négy kitöltendő mezőt lát kétszer kettes táblában, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó megerősítés". 
 A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
-![Register_page](./img/regisztráció.png)
+![Register_page](./img/Regisztráció-oldal.PNG)
 - **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
-![Kvíz page](./img/kvíz.png)<br>
+![Kvíz page](./img/kvíz-oldal.PNG)<br>
 #### Üzleti folyamatok
 
 A felhasználóknak két csoportját különböztetjük meg a webalkalmazásban.<br>

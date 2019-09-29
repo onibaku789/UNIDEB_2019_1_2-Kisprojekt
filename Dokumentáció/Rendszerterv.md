@@ -19,7 +19,7 @@
 #### Architekturális terv
 
 #### Adatbázis terv
-
+![Adatbázis terv](./img/Adattábla.PNG)
 #### Felhasználói felület
 
 #### Üzleti folyamatok
@@ -146,7 +146,6 @@
        <td> "Következő kérdés" gombra kattintás, kiválasztott válasszal.
        <td> Siker, továbblépés a következő kérdésre.
       </tr>
-      
       <tr>
         <td>H0018
        <td>Kvíz

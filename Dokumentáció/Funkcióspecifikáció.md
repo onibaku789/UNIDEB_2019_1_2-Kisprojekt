@@ -14,7 +14,7 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 
 #### Követelménylista
 
-######A megrendelő által kért funkciók:
+####A megrendelő által kért funkciók:
 -Szabad regisztrálció egyedi felhasználói névvel
 -Tanárok tudjanak kvízeket létrehozni és kitölteni
 -Az aktuális kvízek listázhatóak és kitölthezőek legyenek

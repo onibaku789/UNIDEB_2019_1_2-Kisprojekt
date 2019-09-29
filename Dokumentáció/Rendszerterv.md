@@ -48,6 +48,23 @@ Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervez
 
 #### Adatbázis terv
 ![Adatbázis terv](./img/Adattábla.PNG)
+ <code>CREATE TABLE IF NOT EXISTS `users` ( <br>
+ `id` int(32) NOT NULL,<br>
+   `username` varchar(32) NOT NULL,<br>
+   `password` text NOT NULL,<br>
+   `email` varchar(64) NOT NULL)<br>
+    ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;<br><br>
+ ALTER TABLE `users`<br>
+  ADD PRIMARY KEY (`id`);<br> <br> 
+  CREATE TABLE IF NOT EXISTS `quizes` (<br>
+  `id` int(32) NOT NULL,<br>
+    `name` varchar(64) NOT NULL,<br>
+    `description` text NOT NULL,<br>
+    `created_by` int(32) NOT NULL,<br>
+    `points` int(4) NOT NULL ) <br> 
+    ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;<br> <br> 
+     ALTER TABLE `quizes`<br>
+      ADD PRIMARY KEY (`id`);</code>
 #### Felhasználói felület
 - **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 

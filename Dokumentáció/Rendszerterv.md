@@ -2,6 +2,7 @@
 
 ## Tartalomjegyzék
 - [Bevezető](#bevezető)
+- [Mérföldkövek](#Mérföldkövek)
 - [Fizikai környezet](#fizikai-környezet)
 - [Domain modell](#domain-modell)
 - [Architekturális terv](#architekturális-terv)
@@ -13,6 +14,20 @@
 #### Bevezető
 
 A program célja, hogy a Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola az erdők védelme érdekében online tudjon dolgozatot íratni. Szeretnének egy online felületet, amin keresztül kvíz kérdés alapú dolgozatot tudnak íratni a tanárok.
+
+#### Mérföldkövek
+
+A kvíz projekt mérföldkövei a következők:
+1. Mérföldkő: A domain meghatározása és megfelelő szoláltató keresése.
+2. Mérföldkő: A bejelentkező felület elkészítése
+3. Mérföldkő: A regisztrálciós felület elkészítése
+4. Mérföldkő: A kvízek listázási felületének elkészítése
+5. Mérföldkő: Új kvíz létrehozási felületének elkészítése
+6. Mérföldkő: Kvíz felület elkészítése
+7. Mérföldkő: Kvíz értékelő elkészítése
+8. Mérföldkő: Tesztelés
+9. Mérföldkő: 1.0-ás verzió átadása
+
 #### Fizikai környezet
 
 A projekt webalkalmazásként valósul meg a megrenedlő kérésének megfelelően. <br>
@@ -51,6 +66,8 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 
 #### Tesztterv
 
+A tesztelés folyamatának leírása:<br>
+Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuálisan bekerült funkciókat köteles letesztelni és az előző funkciókat szúrópróba szerűen tovább tesztelni. Amint a fejlesztés befejeződik, a teljes verziót még átadás előtt egy a fejlesztők által alkotott csoport az alábbi táblázatot követve leteszteli. Amennyiben a teszt minden eleme sikerrel zárul a projekt egy kb 10 főt számláló független tesztelő csoport kezébe kerül. A csoport a tesztelési eredményeket részletesen leírja. Az eredmények függvényében a fejlesztő csoport az alábbi két lépés közül válasz. Hibák esetén azokat javítja és visszadja a tesztelő csoportnak a projektet további tesztelésre vagy ha, nem található hiba a webalkalmazásban a projekt átadható a megrendelő számára.
 
  <table  style="width:100%" border="1px thin black" >
  

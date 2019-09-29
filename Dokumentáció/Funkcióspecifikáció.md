@@ -47,5 +47,11 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 
 #### Használati esetek
 
-#### Képernyőkép tervek
 
+#### Képernyőkép tervek
+Beljelentkezéshez egy egyszerű űrlap kitöltésre való oldal.
+![Login_page](./img/login-page.jpg)<br><br>
+Regisztrációhoz egy egyszerű űrlap kitöltésre való oldal.
+![Register_page](./img/regisztráció.png)<br><br>
+A kvízek kiválasztására egy táblázat.
+![Kvíz page](./img/kvíz.png)<br><br>

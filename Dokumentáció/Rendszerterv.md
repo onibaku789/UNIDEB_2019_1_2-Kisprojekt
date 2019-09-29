@@ -58,9 +58,10 @@ A gombok a submit, illetve a regisztrációs oldalra való átirányításért f
 A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó megerősítés". 
 A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
 ![Register_page](./img/regisztráció.png)
-- **Home**:
+- **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
-- **Kvíz**: 
+- **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
+![Kvíz page](./img/kvíz.png)
 #### Üzleti folyamatok
 
 

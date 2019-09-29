@@ -21,5 +21,5 @@ Az iskola kérése egy egyszerű felhasználói felülettel ellátott weboldal, 
 - **Házi feladat**: Tulajdonképpen hasonlóan szeretnénk a  házi feladat elkészítését is, az időkorlát nélkül. A pontrendszert alább részletesebben leírom.
 - **Gyakorlás órán**: Az oktatónak lehetősége legyen valós időben megtekinteni egy tanuló aktuális feladatát, kvíz feladatát, és le tudja állítani bármikor azt.
 #### Jelenlegi üzleti folyamatok
-![Jelenlegi folyamatok](file:///C:/Users/laczaroli/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/laczaroli/sw/UNIDEB_2019_1_2-Kisprojekt/K%C3%A9pek/diagram.svg)
+![Jelenlegi folyamatok](https://raw.githubusercontent.com/onibaku789/UNIDEB_2019_1_2-Kisprojekt/master/Dokument%C3%A1ci%C3%B3/img/jelenlegi_uzleti_folyamat_modell_bpmn.svg)
 #### Kívánt üzleti folyamatok

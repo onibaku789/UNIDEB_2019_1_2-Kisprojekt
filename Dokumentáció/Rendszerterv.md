@@ -86,7 +86,7 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 
 A tesztelés folyamatának leírása:<br>
 Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuálisan bekerült funkciókat köteles letesztelni és az előző funkciókat szúrópróba szerűen tovább tesztelni. Amint a fejlesztés befejeződik, a teljes verziót még átadás előtt egy a fejlesztők által alkotott csoport az alábbi táblázatot követve leteszteli. Amennyiben a teszt minden eleme sikerrel zárul a projekt egy kb 10 főt számláló független tesztelő csoport kezébe kerül. A csoport a tesztelési eredményeket részletesen leírja. Az eredmények függvényében a fejlesztő csoport az alábbi két lépés közül válasz. Hibák esetén azokat javítja és visszadja a tesztelő csoportnak a projektet további tesztelésre vagy ha, nem található hiba a webalkalmazásban a projekt átadható a megrendelő számára.
-
+<br><br>
  <table  style="width:100%" border="1px thin black" >
  
  <tr>

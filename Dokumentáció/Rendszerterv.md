@@ -121,8 +121,27 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 - **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
-![Kvíz page](./img/kvíz.png)
+![Kvíz page](./img/kvíz.png)<br>
 #### Üzleti folyamatok
+
+A felhasználóknak két csoportját különböztetjük meg a webalkalmazásban.<br>
+Az oktatok rendelkeznek a nagyobb jogkörrel az admin jogosultsággal rendelkezők (tehát oktatók) lehetőségei a kvízek létrehozásával bővül a sima felhasználóéval szemben.
+###### Diák üzleti folyamat
+
+A diákok számára rendelkezésre álló lehetőségek a következőek:
+- Amennyiben nincs felhasználói fiókunk: Az oldel a HomePage helyzetben van és egyetlen a felhasználó számára elérhető lehetőség a regisztrálció amit a bejelentkezés felület alatt tud elérni a felhasználó (Még nem regisztrált? kattintható linken).<br> Sikeres regisztrálció esetén az alkalmazás bejelentkeztetni a felhasználót, míg sikertelen esetén az oldal a regisztrálciós felületen marad, mindaddig míg az adatokat nem adjuk meg a kért módon.
+- Amennyiben már regisztrált és csak felhasználói jogosultsággal rendelkezik az adott felhasználó, (tehát diák) sikeres bejelentkezés után a Kvízeket listázhatja. A listázott kvízek közül kiválaszthatja a kitölteni kívántat vagy lekérheti a ranglistát. Bármely tevékenységet is választja minden felületen elérhető számára a kijelentkezés funkció is.
+
+![Diák üzleti folyamatok](./img/Diak_uzleti_modell.svg)<br>
+<br>
+###### Oktató üzleti folyamat
+
+Az oktató számára elérhető funkciók:
+Az oktató (tehát admin) minden funkciót képes elvégezni ami a diák számára is elérhető.<br>
+Az admin jogkört nem az oldalon igényelheti egy felhasználó, hanem a rendszer üzemeltetője osztja azt ki a számára megadott felhasználóknak.<br>
+Az oktató számára a kvízek lekérdezse után elérhetú egy új kvíz létrehozása funkció. A kvíz létrehozásában meg kell adja a kvíz nevét, rövid leírását, a kvízen szerezhető pontszámot. A kérdéseket az oktató egyesével adja hozzá a kvízhez. Minden egyes kérdéshez a válaszokat is meg kell adjuk. A helyes választ a válasz melletti kattintható gombal jelölni kell. Amint elkészült a teljes kvízt lehetősége van menteni vagy törölni.
+![Oktató üzleti folyamatok](./img/oktató-üzleti-modell.svg)<br>
+
 
 
 #### Tesztterv

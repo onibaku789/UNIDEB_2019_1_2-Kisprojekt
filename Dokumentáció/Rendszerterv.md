@@ -34,14 +34,25 @@ Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervez
 #### Adatbázis terv
 ![Adatbázis terv](./img/Adattábla.PNG)
 #### Felhasználói felület
+- **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
+A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 
+A gombok a submit, illetve a regisztrációs oldalra való átirányításért felelősek.
+![Login_page](./img/login-page.jpg)
 
+- **Regisztráció**: A felhasználó négy kitöltendő mezőt lát kétszer kettes táblában, illetve két gombot. 
+A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó megerősítés". 
+A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
+![Register_page](./img/regisztráció.png)
+- **Home**:
+
+- **Kvíz**: 
 #### Üzleti folyamatok
 
 
 #### Tesztterv
 
 
- <table  style="width:100%" >
+ <table  style="width:100%" border="1px thin black" >
  
  <tr >
  <th> Tesztjegy

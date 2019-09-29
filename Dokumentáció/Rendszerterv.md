@@ -14,6 +14,18 @@
 
 #### Fizikai környezet
 
+A projekt webalkalmazásként valósul meg a megrenedlő kérésének megfelelően. <br>
+A webalkalmazás domain-je a www.easyplanner.hu. <br>
+Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervezett használathoz a következőek.
+- Böngésző futtatására alkalmas eszköz:
+	- Okos készülékek (modern maroktelefon vagy tablet), asztali számítógép vagy laptop
+- A projekt támogatja az összes modern mainstream böngészőt, így a használathoz alkalmazása ezek ajánlott (a projektet csak a felsorolt böngészőkben teszteltük):
+	- Firefox
+	- Google Chrome
+	- Microsoft Edge
+	- Opera
+- A fentiekből következik, hogy a projekt optimális használatának érdekében a stabil internet elérés elengedhetetlen.
+
 #### Domain modell
 
 #### Architekturális terv

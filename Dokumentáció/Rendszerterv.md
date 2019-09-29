@@ -220,7 +220,7 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
      <tr>
            <td>H0010
            <td>Regisztráció
-           <td> A regisztrációs oldalon a "Lépj be!" szövegre kattintás.
+           <td> A regisztrációs oldalon a "Regisztrálok" szövegre kattintás.
            <td> Siker, az webalkamazás átirányít a bejelentkező oldalra,
      </tr>
       <tr>
@@ -269,7 +269,19 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
         <td>H0018
        <td>Kvíz
         <td> Az utolsó kérdés esetén a "következő kérdés" gomra való kattintás.
-       <td> Siker, felugró ablakban jelezve az eltalált válaszok arányát, siker esetén a megfelelő pontok hozzáadása a felhasználó pontjaihoz, ellenkező esetben semmi nem történik és továbbirányítás a kvízek listájára.
+       <td> Siker, felugró ablakban jelezve az eltalált válaszok arányát, siker esetén a megfelelő pontok hozzáadása a felhasználó pontjaihoz, és átirányít a kvíz listára, ellenkező esetben semmi nem történik és továbbirányítás a kvíz legelejére.
+      </tr>
+      <tr>
+        <td>H0019</td>
+       <td>Kvíz létrehozása</td>
+        <td> Kvíz neve (min 4 karakter), kvíz leírása (min. 10 karakter), pontszám (max. 200), és legalább egy kérdés megadása</td>
+        <td>Siker, átirányít a kvíz listára</td>
+      </tr>
+      <tr>
+        <td>H0020</td>
+       <td>Kvíz létrehozása</td>
+        <td> Kvíz adatok megadása a kritériumoknak <u>NEM</u> megfelelően</td>
+        <td>Siker, hibaüzenetet dob a hibás mezőkre vonatkozó megfelelő üzenetekkel.</td>
       </tr>
          
       

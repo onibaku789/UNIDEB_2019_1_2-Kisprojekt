@@ -46,5 +46,6 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - A három kvízfajta megkülönböztetése (a megadott időn belül csak egy fajta kvízt vagyunk képesek elkészíteni, amin nincs korlát, valós időben nem megtekinthető vagy szakítható az oktató által)
 
 #### Használati esetek
+
 #### Képernyőkép tervek
 

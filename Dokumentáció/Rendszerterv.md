@@ -70,7 +70,7 @@ Kvíz sorszámon és az aktuális oldalon kívül GET-es kéréssel semmit nem k
 
 
 #### Adatbázis terv
-![Adatbázis terv](./img/Adattábla.PNG)
+![Adatbázis terv](./img/Adattábla.PNG)<br><br>
  <code>CREATE TABLE IF NOT EXISTS `users` ( <br>
  `id` int(32) NOT NULL,<br>
    `username` varchar(32) NOT NULL,<br>
@@ -106,8 +106,8 @@ ALTER TABLE `answers`<br>
 ) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8;<br>
 <br>
 ALTER TABLE `questions`<br>
- ADD PRIMARY KEY (`id`);<br>
- </code>
+ ADD PRIMARY KEY (`id`);
+</code>
 #### Felhasználói felület
 - **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 

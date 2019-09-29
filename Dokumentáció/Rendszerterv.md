@@ -12,6 +12,7 @@
 
 #### Bevezető
 
+A program célja, hogy a Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola az erdők védelme érdekében online tudjon dolgozatot íratni. Szeretnének egy online felületet, amin keresztül kvíz kérdés alapú dolgozatot tudnak íratni a tanárok.
 #### Fizikai környezet
 
 A projekt webalkalmazásként valósul meg a megrenedlő kérésének megfelelően. <br>

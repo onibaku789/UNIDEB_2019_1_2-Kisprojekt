@@ -15,10 +15,10 @@ A Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola (későbbie
 Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé teszi, hogy XXI. századi eszközök segítségével értékeljék a gyermekek házi feladatait és akár dolgozatírást is tudjanak a segítségével lebonyolítani. A webalkalmazás kvízek segítségével százáalékokkal értékeli a tudást, megadott válaszok alapján. A webalkalmazás megkülönböztet admin és sima mezei felhasználót. Az admin jogosultsággal rendelkező emberek alkotják a tanárokat, míg a diák csak sima felhasználói jogosultságot kapjon.
 
 #### Kínált üzleti folyamatok
-######Diák üzleti folyamat
+###### Diák üzleti folyamat
 ![Diák üzleti folyamatok](./img/Diak_uzleti_modell.svg)<br>
 <br>
-######Oktató üzleti folyamat
+###### Oktató üzleti folyamat
 ![Oktató üzleti folyamatok](./img/oktató-üzleti-modell.svg)<br>
 
 #### Követelménylista

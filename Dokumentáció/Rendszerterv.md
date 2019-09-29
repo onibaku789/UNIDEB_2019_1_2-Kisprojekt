@@ -46,6 +46,29 @@ Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervez
 
 #### Architekturális terv
 
+A webalkalmazás **PHP** nyelven íródik, mindenféle keretrendszer nélkül.<br>
+Rendszerünkhöz az **MVC (Model View Controller)** szoftvertervezési mintát használjuk.<br>
+Három főbb modulból áll:
+- **Azonosítási modul**: Magába foglalja mind a bejelentkezés rendszert, és a regisztrációs rendszert is. Ebben kezelünk olyan adatokat mint például a jelszó megváltoztatás, illetve, hogy a felhasználó be van-e jelentkezve. Tartalmaz továbbá felületi elemeket, amely a vezérlő és a nézet rétegeket fedik le, ezek öröklődnek a bizonyos <i>Abstract Page</i> osztályból, ahol főképpen a futási sorrendet kontrolláljuk, így biztosítva hogy előbb fusson le a vezérlő, majd csak utána jelenítse meg a felhasználónak az adatokat. <br>
+**A modul a következő osztályokat tartalmazza**:
+-- Authentication
+-- Login_Page
+-- Register_Page
+- **Kvíz modul**: Ez a rendszer magja, az ebben található komponenseket kizárólag bejelentkezett felhasználók használhatják. Ebben a modulban találhatók a következők: kvíz lista, a kiválasztott kvíz kezelése, ranglista kialakítása, új kvízek létrehozása. A felületi oldalak úgyszint az <i>Abstract Page</i>-ből öröklődnek. A vannak a model rétegben olyan elemek amelyek **ORM (Object Relational Mapping)** szerepet is betöltenek.
+**A modul a következő osztályokat tartalmazza**:
+-- Answer
+-- Quiz
+-- Create_Quiz_Page
+-- Quiz_List_Page
+-- Quiz_Page
+
+Az adatok többnyire perzisztensek, ezért amíg a felhasználó SESSION-je tart, addig a felhasználó információja nem vész el. Az előnyei itt a kérdések hozzáadásánál jön elő, mikor több kérdést kell eltárolni akár több száz oldal újratöltés után is.<br>
+Adatbáziskezelésre **MySQL**-t használunk fejlesztőink preferenciája miatt. <br>
+Kódunkban pedig **Singleton** programtervezési mintát használunk a <i>Database</i> osztályunkban.
+Továbbá védjük az SQL lekérdezéseinket SQL injection ellen, így nem tudják lekérni a felhasználók adatait egy trükkös SQL lekérdezéssel.<br>
+Kvíz sorszámon és az aktuális oldalon kívül GET-es kéréssel semmit nem kezelünk, ezzel is védve a rendszert.
+
+
 #### Adatbázis terv
 ![Adatbázis terv](./img/Adattábla.PNG)
  <code>CREATE TABLE IF NOT EXISTS `users` ( <br>
@@ -64,7 +87,27 @@ Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervez
     `points` int(4) NOT NULL ) <br> 
     ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;<br> <br> 
      ALTER TABLE `quizes`<br>
-      ADD PRIMARY KEY (`id`);</code>
+      ADD PRIMARY KEY (`id`);
+      <br>
+ CREATE TABLE IF NOT EXISTS `answers` (<br>
+  `id` int(32) NOT NULL,<br>
+  `valasz` text NOT NULL,<br>
+  `question_id` int(32) NOT NULL,<br>
+  `jo_valasz` tinyint(1) NOT NULL<br>
+) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8;<br>
+<br>
+ALTER TABLE `answers`<br>
+ ADD PRIMARY KEY (`id`);<br>
+ <br>
+ CREATE TABLE IF NOT EXISTS `questions` (<br>
+  `id` int(32) NOT NULL,<br>
+  `question` varchar(64) NOT NULL,<br>
+  `quiz_id` int(11) NOT NULL<br>
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8;<br>
+<br>
+ALTER TABLE `questions`<br>
+ ADD PRIMARY KEY (`id`);<br>
+ </code>
 #### Felhasználói felület
 - **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 

@@ -33,3 +33,4 @@ Szertnénk három féle kvízt megkülönböztetni:
 - **Házi feladat**, hasonló a dolgozathoz, de nincs benne időkorlát.<br> 
 
 A felületről a kijelentkezés gombot bárhonnan elérhetővé szeretnénk tenni, hisz nem kívánjuk a gyermekek szünetét ilyesfajta "adminisztrálcióval" ellopni.
+

@@ -1,11 +1,12 @@
 # Funkcióspecifikáció
-
+* * *
 ## Tartalomjegyzék
 
 - [Jelenlegi helyzet leírása](#jelenlegi-helyzet-leírása)
 - [Követelménylista](#követelménylista)
 - [Használati esetek](#használati-esetek)
 - [Képernyőkép tervek](#képernyőkép-tervek)
+- [Kínált üzleti folymatok](#kínált_üzleti_folyamatok)
 
 #### Jelenlegi helyzet leírása
 
@@ -13,8 +14,9 @@ A Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola (későbbie
 Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé teszi, hogy XXI. századi eszközök segítségével értékeljék a gyermekek házi feladatait és akár dolgozatírást is tudjanak a segítségével lebonyolítani. A webalkalmazás kvízek segítségével százáalékokkal értékeli a tudást, megadott válaszok alapján. A webalkalmazás megkülönböztet admin és sima mezei felhasználót. Az admin jogosultsággal rendelkező emberek alkotják a tanárokat, míg a diák csak sima felhasználói jogosultságot kapjon.
 
 #### Követelménylista
-
-###### A megrendelő által kért funkciók:
+#### Kínált üzleti folyamatok
+![Oktató üzleti folyamatok](./img/oktató-üzleti-modell.svg)<br>
+###### A megrendelő által kért funkciók
 - Szabad regisztráció egyedi felhasználói névvel
 - Tanárok tudjanak kvízeket létrehozni és kitölteni
 - Az aktuális kvízek listázhatóak és kitölthetőek legyenek
@@ -25,7 +27,7 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - A dolgozat és házi feladata kvízeket ne tudjon egy felhasználó egynél többször kitölteni
 - Minden felhasználó ki tudjon jelentkezni az oldalról
 
-######Az általunk vállalt funkciók
+###### Az általunk vállalt funkciók
 - Szabad regisztráció egyedi felhasználói névvel
 - Tanárok tudjanak kvízeket létrehozni és kitölteni
 - Kvízek listázása
@@ -33,7 +35,7 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - Elérhető és megszerzett pontok megjelenítése kvízekhez
 - Bármely felhasználó kijelentkezhet az oldalról
 
-######Azok a funkciók amiket a megadott időn belül nem tudunk vállalni
+###### Azok a funkciók amiket a megadott időn belül nem tudunk vállalni
 - A három kvízfajta megkülönböztetése (a megadott időn belül csak egy fajta kvízt vagyunk képesek elkészíteni, amin nincs korlát, valós időben nem megtekinthető vagy szakítható az oktató által)
 
 #### Használati esetek

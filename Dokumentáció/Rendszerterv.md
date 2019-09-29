@@ -1,5 +1,5 @@
 # Rendszerterv
-
+* * *
 ## Tartalomjegyzék
 - [Bevezető](#bevezető)
 - [Mérföldkövek](#Mérföldkövek)
@@ -89,7 +89,7 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
 
  <table  style="width:100%" border="1px thin black" >
  
- <tr >
+ <tr>
  <th> Tesztjegy
  <th> Modul
  <th> Művelet

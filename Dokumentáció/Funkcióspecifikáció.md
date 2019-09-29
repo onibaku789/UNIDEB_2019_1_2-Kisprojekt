@@ -11,8 +11,8 @@
 
 #### Jelenlegi helyzet leírása
 
-A Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola (későbbiekben megrendelő) megkereste a Taco's Kft. fejlesztői csapatát miszerint reformálni szeretnék a gyermekek értékelését a mai modern eszközök segítségével. A megrendelő egyszerű és könnyen átáláthatő webalkalmazást kért a csapatunktól.
-Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé teszi, hogy XXI. századi eszközök segítségével értékeljék a gyermekek házi feladatait és akár dolgozatírást is tudjanak a segítségével lebonyolítani. A webalkalmazás kvízek segítségével százáalékokkal értékeli a tudást, megadott válaszok alapján. A webalkalmazás megkülönböztet admin és sima mezei felhasználót. Az admin jogosultsággal rendelkező emberek alkotják a tanárokat, míg a diák csak sima felhasználói jogosultságot kapjon.
+A Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola (későbbiekben megrendelő) megkereste a Taco's Kft. fejlesztői csapatát miszerint reformálni szeretnék a gyermekek értékelését a mai modern eszközök segítségével. A megrendelő egyszerű és könnyen átálátható webalkalmazást kért a csapatunktól.
+Tehát, a  megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé teszi, hogy XXI. századi eszközök segítségével értékeljék a gyermekek házi feladatait és akár dolgozatírást is tudjanak a segítségével lebonyolítani. A webalkalmazás kvízek segítségével százalékokkal értékeli a tudást, megadott válaszok alapján. A webalkalmazás megkülönböztet admin és sima mezei felhasználót. Az admin jogosultsággal rendelkező emberek alkotják a tanárokat, míg a diákok csak sima felhasználói jogosultságot kapnak.
 
 #### Kínált üzleti folyamatok
 ###### Diák üzleti folyamat
@@ -29,7 +29,7 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - Az aktuális kvízek listázhatóak és kitölthetőek legyenek
 - Diákok és a tanárok is tudjanak kvízeket kitölteni
 - Kvízeken elérhető pontszámok és az adott felhasználó által elért pontszámok megjelenítése
-- A három féle kvíz megadása (dolgozat, gyakorlás, házifeladat)
+- A három féle kvíz megadása (dolgozat, gyakorlás, házi feladat)
 - A dolgozat típusú kvíz időkorlátos legyen
 - A dolgozat és házi feladata kvízeket ne tudjon egy felhasználó egynél többször kitölteni
 - Minden felhasználó ki tudjon jelentkezni az oldalról

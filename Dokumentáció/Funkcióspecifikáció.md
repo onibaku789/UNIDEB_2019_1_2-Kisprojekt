@@ -24,6 +24,18 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 - A dolgozat típusú kvíz időkorlátos legyen
 - A dolgozat és házi feladata kvízeket ne tudjon egy felhasználó egynél többször kitölteni
 - Minden felhasználó ki tudjon jelentkezni az oldalról
+
+######Az általunk vállalt funkciók
+- Szabad regisztráció egyedi felhasználói névvel
+- Tanárok tudjanak kvízeket létrehozni és kitölteni
+- Kvízek listázása
+- Minden jogosultsággal lehet kvízt kitölteni
+- Elérhető és megszerzett pontok megjelenítése kvízekhez
+- Bármely felhasználó kijelentkezhet az oldalról
+
+######Azok a funkciók amiket a megadott időn belül nem tudunk vállalni
+- A három kvízfajta megkülönböztetése (a megadott időn belül csak egy fajta kvízt vagyunk képesek elkészíteni, amin nincs korlát, valós időben nem megtekinthető vagy szakítható az oktató által)
+
 #### Használati esetek
 #### Képernyőkép tervek
 #### Követelményelemzés

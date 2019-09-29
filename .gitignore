@@ -96,11 +96,11 @@ modules.xml
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
+ .idea/modules.xml
+ .idea/*.iml
+.idea/modules
+*.iml
+*.ipr
 
 # CMake
 
@@ -126,7 +126,7 @@ modules.xml
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
-.idea/
+.idea/*
 
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 

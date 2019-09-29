@@ -15,9 +15,9 @@ Tehát megrendelőnek szüksége van egy webalkalmazásra, amely lehetővé tesz
 #### Követelménylista
 
 ###### A megrendelő által kért funkciók:
-- Szabad regisztrálció egyedi felhasználói névvel
+- Szabad regisztráció egyedi felhasználói névvel
 - Tanárok tudjanak kvízeket létrehozni és kitölteni
-- Az aktuális kvízek listázhatóak és kitölthezőek legyenek
+- Az aktuális kvízek listázhatóak és kitölthetőek legyenek
 - Diákok tudjanak kvízeket kitölteni
 - Kvízeken elérhető pontszámok és az adott felhasználó által elért pontszámok megjelenítése
 - Minden felhasználó ki tudjon jelentkezni az oldalról

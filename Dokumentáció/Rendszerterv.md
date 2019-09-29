@@ -4,7 +4,6 @@
 - [Bevezető](#bevezető)
 - [Mérföldkövek](#Mérföldkövek)
 - [Fizikai környezet](#fizikai-környezet)
-- [Domain modell](#domain-modell)
 - [Architekturális terv](#architekturális-terv)
 - [Felhasználói felület](#felhasználói-felület)
 - [Adatbázis terv](#adatbázis-terv)
@@ -42,7 +41,6 @@ Ennek következtében a fizikai környezet melyet a projekt megkövetel a tervez
 	- Opera
 - A fentiekből következik, hogy a projekt optimális használatának érdekében a stabil internet elérés elengedhetetlen.
 
-#### Domain modell
 
 #### Architekturális terv
 

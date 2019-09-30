@@ -11,6 +11,7 @@ class Package {
 		'Answer' => 'components/quiz/models/answer.php',
 		'Quiz' => 'components/quiz/models/quiz.php',
 		'QuizManager' => 'components/quiz/models/quizmanager.php',
+		'Leaderboard_Page' => 'components/quiz/quiz_leaderboard_page.php',
 		'Quiz_List_Page' => 'components/quiz/quiz_list_page.php',
 		'Quiz_Page' => 'components/quiz/quiz_page.php',
 		'Main_Page' => 'components/site/main_page.php',

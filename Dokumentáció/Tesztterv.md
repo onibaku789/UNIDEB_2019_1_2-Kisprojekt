@@ -152,13 +152,15 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  
  <table  style="width:100%" border="1px thin black" >
  <tr>
-  <td>Tesztjegy</td>
-  <td>Elvárt kimenet</td>
-  <td>Kapott kimenet</td>
-  <td>Teszt eredmény</td>
+  <th>Tesztjegy</th>
+  <th>Művelet</th>
+  <th>Elvárt kimenet</th>
+  <th>Kapott kimenet</th>
+  <th>Teszt eredmény</th>
  </tr>
   <tr>
   <td>H0001</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -168,9 +170,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0003</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -180,9 +184,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0005</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -192,9 +198,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0007</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -204,9 +212,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0009</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -216,9 +226,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0011</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -228,9 +240,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0013</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -240,9 +254,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0016</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -252,9 +268,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0018</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
@@ -264,9 +282,11 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
  </tr>
  <tr>
   <td>H0020</td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>

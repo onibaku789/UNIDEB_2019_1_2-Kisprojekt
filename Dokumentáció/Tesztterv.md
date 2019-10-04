@@ -2,7 +2,7 @@
 ***
 ## Tartalomjegyzék
 - [Tesztterv](#tesztterv)
-- [Végrehajtott tesztesetek](#végrehajtott tesztesetek)
+- [Végrehajtott tesztesetek](#végrehajtott-tesztesetek)
 
 #### Tesztterv
 
@@ -148,7 +148,7 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  </table>
  
  
- #### Végrehajtott tesztesetek 
+ #### Végrehajtott_tesztesetek 
  
  <table  style="width:100%" border="1px thin black" >
  <tr>

@@ -144,9 +144,20 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
        <td>Kvíz létrehozása</td>
         <td> Kvíz adatok megadása a kritériumoknak <u>NEM</u> megfelelően</td>
         <td>Siker, hibaüzenetet dob a hibás mezőkre vonatkozó megfelelő üzenetekkel.</td>
-      </tr>
-         
-      
-    
-     
+      </tr>    
  </table>
+ 
+ 
+ #### Végrehajtott tesztesetek 
+ 
+ <table  style="width:100%" border="1px thin black" >
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ </table>
+ 
+ 

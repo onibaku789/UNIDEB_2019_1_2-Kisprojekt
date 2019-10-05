@@ -230,31 +230,38 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  </tr>
  <tr>
   <td>H0011</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A kijelentkezés gombra kattintás.</td>
+  <td>Siker, felugró ablakban jelezve, a felhasználó kiléptetését.</td>
+  <td>Siker, felugró ablakban jelezve, a felhasználó kiléptetését.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0012</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A Kvízek gombra kattintás.</td>
+  <td>Siker, átirányítás a kvíz oldalra, ahol megjelennek a kvízek egy táblázatban.</td>
+  <td>Siker, átirányítás a kvíz oldalra, ahol megjelennek a kvízek egy táblázatban.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0013</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A "kvíz kezdése" linkre kattintás.</td>
+  <td>Siker, átirányítás az adott kvíz oldalára.</td>
+  <td>Siker, átirányítás az adott kvíz oldalára.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0013</td>
+  <td>A kvíz oldalán található "Vissza a kvízekhez" gombra kattintás.</td>
+  <td>Siker, átirányítás a kvízek listájának oldalra.</td>
+  <td>Siker, átirányítás a kvízek listájának oldalra.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0015</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A kvíz oldalán található "kvíz kezdése" gombra kattintás.</td>
+  <td>Siker, átirányítás a kvíz első kérdésére.</td>
+  <td>Siker, átirányítás a kvíz első kérdésére.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0016</td>

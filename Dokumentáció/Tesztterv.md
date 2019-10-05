@@ -160,43 +160,43 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  </tr>
   <tr>
   <td>H0001</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A bejelntkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó és jelszó páros nem helyes.</td>
+  <td>Felugró piros kisablak hibaüzenettel.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0002</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A bejelntkező űrlapot olyan felhasználóval töltik ki ami nem szerepel az adatbázisan.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó nem szerepel a rendszerben.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó nem szerepel a rendszerben.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0003</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A bejelntkező űrlapot olyan jelszóval párral töltik ki ami nem szerepel az adatbázisban.</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó nem szerepel az adatbázisban.</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó nem szerepel az adatbázisban.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0004</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A bejelntkező űrlapot olyan felhasználó és jelszó párral töltik ki ami szerepel az adatbázisan.</td>
+  <td>Siker, a felület a "Home" oldalra irányít át.</td>
+  <td>Siker, a felület a "Home" oldalra irányít át.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0005</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres.	</td>
+  <td>Siker, a felület a "Home" oldalra irányít át, bejelentkezve.</td>
+  <td>Siker, a felület a "Home" oldalra irányít át.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0006</td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg nem megfelel az email cím szabványnak és a többi mező nem üres.</td>
+  <td>Hiba, a felület kijelzi, hogy az email mezőbe írt szöveg nem megfelelő emailcím.</td>
   <td></td>
   <td></td>
  </tr>

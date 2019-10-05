@@ -197,36 +197,36 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
   <td>H0006</td>
   <td>A regisztrációs űrlap email mezőjében a beírt szöveg nem megfelel az email cím szabványnak és a többi mező nem üres.</td>
   <td>Hiba, a felület kijelzi, hogy az email mezőbe írt szöveg nem megfelelő emailcím.</td>
-  <td></td>
-  <td></td>
+  <td>Hiba, a felület kijelzi, hogy az email mezőbe írt szöveg nem megfelelő emailcím.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0007</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező üres.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó, jelszó és a jelszó megerősítő túl rövid vagy nincs kitöltve.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó, jelszó és a jelszó megerősítő túl rövid vagy nincs kitöltve.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0008</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a jelszó mezőbe beírt karaktersorozat hossza kisebb mint 6</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó mezőbe írt karaktersorozat túl rövid.</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó mezőbe írt karaktersorozat túl rövid.</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0009</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a jelszó mezőbe beírt karaktersorozat hossza nagyobb vagy egyenlő mint 6, viszont a felhasználónév már megtalálható az adatbázisban.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhaználónév már szerepel az adatbázisban, válasszon ettől különbözőt.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhaználónév már szerepel az adatbázisban, válasszon ettől különbözőt.</td>
+  <td>ÁtmentÁtment</td>
  </tr>
  <tr>
   <td>H0010</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>A regisztrációs oldalon a "Regisztrálok" szövegre kattintás.</td>
+  <td>Siker, az webalkamazás átirányít a bejelentkező oldalra</td>
+  <td>Siker, az webalkamazás átirányít a bejelentkező oldalra</td>
+  <td>Átment</td>
  </tr>
  <tr>
   <td>H0011</td>

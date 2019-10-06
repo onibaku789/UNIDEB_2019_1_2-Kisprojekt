@@ -1,4 +1,4 @@
-# Rendszerterv
+A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.# Rendszerterv
 * * *
 ## Tartalomjegyzék
 - [Bevezető](#bevezető)
@@ -190,7 +190,7 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
    <tr>
       <td>H0005
       <td>Regisztráció
-      <td> A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres.
+      <td> A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.
       <td> Siker, a felület a "Home" oldalra irányít át, bejelentkezve.
    </tr>
    

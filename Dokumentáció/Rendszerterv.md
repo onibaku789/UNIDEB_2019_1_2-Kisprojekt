@@ -118,6 +118,9 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 ![Register_page](./img/Regisztráció-oldal.PNG)
 - **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
+- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait.
+![Admin_page](./img/Admin-oldal.PNG)
+
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
 ![Kvíz page](./img/kvíz-oldal.PNG)<br>
 #### Üzleti folyamatok
@@ -158,7 +161,7 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  <tr>
  <td>H0001
  <td>Bejelentkezés
- <td>A bejelntkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.
+ <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.
  <td> Hiba, a felület kijelzi, hogy a felhasználó és jelszó páros nem helyes.
  </tr>
  
@@ -166,21 +169,21 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  <tr>
   <td>H0002
   <td>Bejelentkezés
-  <td>A bejelntkező űrlapot olyan felhasználóval töltik ki ami nem szerepel az adatbázisan.
+  <td>A bejelentkező űrlapot olyan felhasználóval töltik ki ami nem szerepel az adatbázisan.
   <td> Hiba, a felület kijelzi, hogy a felhasználó nem szerepel a rendszerben.
   </tr>
   
   <tr>
    <td>H0003
    <td>Bejelentkezés
-   <td>A bejelntkező űrlapot olyan  jelszóval párral töltik ki ami nem szerepel az adatbázisban.
+   <td>A bejelentkező űrlapot olyan  jelszóval párral töltik ki ami nem szerepel az adatbázisban.
    <td> Hiba, a felület kijelzi, hogy a jelszó nem szerepel az adatbázisban.
    </tr>
    
    <tr>
     <td>H0004
     <td>Bejelentkezés
-    <td>A bejelntkező űrlapot olyan felhasználó és jelszó párral töltik ki ami szerepel az adatbázisan.
+    <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami szerepel az adatbázisan.
     <td> Siker, a felület a "Home" oldalra irányít át.
     </tr>
     

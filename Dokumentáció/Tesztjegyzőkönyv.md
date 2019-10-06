@@ -5,10 +5,10 @@
 
 
  #### Végrehajtott tesztesetek 
- 
+  A tesztelést a tesztterv alapján lett végrehajtva. A tesztterv és az alábbi táblázat "tesztjegy" mezői azonosak, azaz a kapcsolatot a "tesztjegy" mező biztosítja. A "művelet" mező a tesztelés tárgyát képezi. Az "elvárt kimenet" mező azt mutatja, hogy az adott műveletre milyen hatást várunk el. A "kapott kimenet" azt mutatja, hogy az adott művelet milyen hatást gyakorolt a programra. A "teszt eredmény" mező pedig azt mutatja, hogy az elvárt és a kapott eredmény azonos-e. Ha azonos, akkor átment a teszten.  
+
  ##### Tesztelő: Guzsik Dániel
  
- A tesztelést a tesztterv alapján lett végrehajtva. A tesztterv és az alábbi táblázat "tesztjegy" mezői azonosak, azaz a kapcsolatot a "tesztjegy" mező biztosítja. A "művelet" mező a tesztelés tárgyát képezi. Az "elvárt kimenet" mező azt mutatja, hogy az adott műveletre milyen hatást várunk el. A "kapott kimenet" azt mutatja, hogy az adott művelet milyen hatást gyakorolt a programra. A "teszt eredmény" mező pedig azt mutatja, hogy az elvárt és a kapott eredmény azonos-e. Ha azonos, akkor átment a teszten.  
  
  <table  style="width:100%" border="1px thin black" >
  <tr>
@@ -161,3 +161,22 @@
  </table>
  
  
+ ##### Tesztelő: Varga Attila
+   
+ <table  style="width:100%" border="1px thin black" >
+ <tr>
+  <th>Tesztjegy</th>
+  <th>Művelet</th>
+  <th>Elvárt kimenet</th>
+  <th>Kapott kimenet</th>
+  <th>Teszt eredmény</th>
+ </tr>
+  <tr>
+  <td>H0001</td>
+  <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó és jelszó páros nem helyes.</td>
+  <td>Felugró ablakban a megfelelő hibaüzenet jelenik meg.</td>
+  <td>Átment</td>
+ </tr>
+
+ </table>

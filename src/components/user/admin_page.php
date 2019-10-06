@@ -2,16 +2,14 @@
 class Admin_Page extends Abstract_Page {
   function handleEvents() {
     if(isset($_POST["submit_make_admin"])) {
-      if(($db = Database::getInstance()->makeQuery("UPDATE users SET permission_level = 1 WHERE id = '".$_POST["userid"]."'")) !== false) {
-        var_dump($db);
-        $this->showMessage("Tökéletes","Ő is egy istenné vált.");
-      }
+      Database::getInstance()->makeQuery("UPDATE users SET permission_level = 1 WHERE id = '".$_POST["userid"]."'");
     }
     if(isset($_POST["submit_make_user"])) {
-      if(($db = Database::getInstance()->makeQuery("UPDATE users SET permission_level = 0 WHERE id = '".$_POST["userid"]."'")) !== false) {
-        var_dump($db);
-        $this->showMessage("Tökéletes","Ő is egy szolga lett.");
-      }
+      Database::getInstance()->makeQuery("UPDATE users SET permission_level = 0 WHERE id = '".$_POST["userid"]."'");
+    }
+    
+    if(isset($_POST["submit_make_developer"])) {
+      Database::getInstance()->makeQuery("UPDATE users SET permission_level = 2 WHERE id = '".$_POST["userid"]."'");
     }
     
   }
@@ -27,7 +25,8 @@ class Admin_Page extends Abstract_Page {
   
   function show() {
     $this->form_open();
-    var_dump($_POST["submit_make_user"]);
+    $user = new User($_SESSION["id"]);
+    if($user->getPermission() === 0) header("Location: /index.php?page=main");
       ?>
       <div class="container">
           <div class="row">
@@ -59,8 +58,9 @@ class Admin_Page extends Abstract_Page {
                               
                               <td><?=$this->getPermissionName($felhasznalo["permission_level"])?></td>
                               <td>
-                              <?=($felhasznalo["permission_level"] > 0 ? "<a onclick=\"submitlink('submit_make_user',".$felhasznalo['id'].")\" class=\"btn btn-primary text-white\">Felhasználóvá varázsolás</a>": "")?>
-                              <?=($felhasznalo["permission_level"] < 1 ? "<a onclick=\"submitlink('submit_make_admin',".$felhasznalo['id'].")\" class=\"btn btn-primary text-white\">Adminná varázsolás</a>": "")?>
+                              <?=($felhasznalo["permission_level"] > 0 && $user->getPermission() == 2 ? "<a onclick=\"submitlink('submit_make_user',".$felhasznalo['id'].")\" class=\"btn btn-primary text-white\">Felhasználóvá varázsolás</a>": "")?>
+                              <?=($felhasznalo["permission_level"] < 1 && $user->getPermission() == 2 ? "<a onclick=\"submitlink('submit_make_admin',".$felhasznalo['id'].")\" class=\"btn btn-primary text-white\">Adminná varázsolás</a>": "")?>
+                              <?=($felhasznalo["permission_level"] < 2 && $user->getName() == "laczaroli" ? "<a onclick=\"submitlink('submit_make_developer',".$felhasznalo['id'].")\" class=\"btn btn-primary text-white\">Fejlesztővé varázsolás</a>": "")?>
                               </td>
                               </tr>
                           <?

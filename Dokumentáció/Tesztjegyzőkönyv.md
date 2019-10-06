@@ -580,4 +580,39 @@
   <td>A kvíz elkezdődik, betölti a kvíz első kérdését.</td>
   <td>Átment</td>
  </tr>
+ <tr>
+  <td>H0016</td>
+  <td>"Következő kérdés" gombra kattintás, kiválasztott válasz nélkül</td>
+  <td>Hiba, felugróablakban jelezve hogy nem választott semmit.</td>
+  <td>A felület hibát dob, amely tartalmazza a hiba szöveget.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0017</td>
+  <td>"Következő kérdés" gombra kattintás, kiválasztott válasszal.</td>
+  <td>Siker, továbblépés a következő kérdésre.</td>
+  <td>A felület átvált a következő kérdésre.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0018</td>
+  <td>Az utolsó kérdés esetén a "következő kérdés" gomra való kattintás.</td>
+  <td>Siker, felugró ablakban jelezve az eltalált válaszok arányát, siker esetén a megfelelő pontok hozzáadása a felhasználó pontjaihoz, és átirányít a kvíz listára, ellenkező esetben semmi nem történik és továbbirányítás a kvíz legelejére.</td>
+  <td>Megjeleníti a végeredményt, sikeres kvíz esetén hozzáadja a kvízhez tartozó pontokat</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0019</td>
+  <td>Kvíz neve (min 4 karakter), kvíz leírása (min. 10 karakter), pontszám (max. 200), és legalább egy kérdés megadása.</td>
+  <td>Siker, átirányít a kvíz listára.</td>
+  <td>A felület átirányít a kvíz listára, és ott megjelenik a kvízünk.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0020</td>
+  <td>Kvíz adatok megadása a kritériumoknak NEM megfelelően.</td>
+  <td>Siker, hibaüzenetet dob a hibás mezőkre vonatkozó megfelelő üzenetekkel.</td>
+  <td>A felület feldobja a megfelelő hibát, hogy mit kell még kitöltenie.</td>
+  <td>Átment</td>
+ </tr>
  </table>

@@ -545,4 +545,39 @@
   <td>A felület átirányítja a kezdőlapra, amely jelen pillanatban a home oldal</td>
   <td>Átment</td>
  </tr>
+  <tr>
+  <td>H0011</td>
+  <td>A kijelentkezés gombra kattintás.</td>
+  <td>Siker, felugró ablakban jelezve, a felhasználó kiléptetését.</td>
+  <td>Az oldal kijelentkeztet, így csak korlátozott oldalakat lehet elérni.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0012</td>
+  <td>A Kvízek gombra kattintás.</td>
+  <td>Siker, átirányítás a kvíz oldalra, ahol megjelennek a kvízek egy táblázatban.</td>
+  <td>A kvíz listát jeleníti meg a felület, ha a felhasználó admin, akkor még egy gombot is, amellyel kvízt lehet létrehozni.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0013</td>
+  <td>A "kvíz kezdése" linkre kattintás.</td>
+  <td>Siker, átirányítás az adott kvíz oldalára.</td>
+  <td>A megfelelő kvíz jelenik meg a felhasználó számára.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0014</td>
+  <td>A kvíz oldalán található "Vissza a kvízekhez" gombra kattintás.</td>
+  <td>Siker, átirányítás a kvízek listájának oldalra.</td>
+  <td>A felület visszairányítja a kvíz listára.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0015</td>
+  <td>A kvíz oldalán található "kvíz kezdése" gombra kattintás.</td>
+  <td>Siker, átirányítás a kvíz első kérdésére.</td>
+  <td>A kvíz elkezdődik, betölti a kvíz első kérdését.</td>
+  <td>Átment</td>
+ </tr>
  </table>

@@ -118,6 +118,9 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 ![Register_page](./img/Regisztráció-oldal.PNG)
 - **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
+- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait.
+![Admin_page](./img/Admin-oldal.PNG)
+
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
 ![Kvíz page](./img/kvíz-oldal.PNG)<br>
 #### Üzleti folyamatok

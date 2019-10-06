@@ -150,6 +150,10 @@ Minden egyes mérföldkőnek az elérése után a fejlesztői csoport az aktuál
  
  #### Végrehajtott tesztesetek 
  
+ #### Tesztelő: Guzsik Dániel
+ 
+ A tesztelést a tesztterv alapján lett végrehajtva. A tesztterv és az alábbi táblázat "tesztjegy" mezői azonosak, azaz a kapcsolatot a "tesztjegy" mező biztosítja. A "művelet" mező a tesztelés tárgyát képezi. Az "elvárt kimenet" mező azt mutatja, hogy az adott műveletre milyen hatást várunk el. A "kapott kimenet" azt mutatja, hogy az adott művelet milyen hatást gyakorolt a programra. A "teszt eredmény" mező pedig azt mutatja, hogy az elvárt és a kapott eredmény azonos-e. Ha azonos, akkor átment a teszten.  
+ 
  <table  style="width:100%" border="1px thin black" >
  <tr>
   <th>Tesztjegy</th>

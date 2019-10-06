@@ -48,7 +48,7 @@
  </tr>
  <tr>
   <td>H0005</td>
-  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres.	</td>
+      <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.</td>
   <td>Siker, a felület a "Home" oldalra irányít át, bejelentkezve.</td>
   <td>Siker, a felület a "Home" oldalra irányít át.</td>
   <td>Átment</td>
@@ -201,7 +201,7 @@
  </tr>
  <tr>
   <td>H0005</td>
-  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres.	</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.	</td>
   <td>Siker, a felület a "Home" oldalra irányít át, bejelentkezve.</td>
   <td>Siker, a felület a "Home" oldalra irányít át.</td>
   <td>Átment</td>
@@ -353,7 +353,7 @@
  </tr>
  <tr>
   <td>H0005</td>
-  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres.	</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.	</td>
   <td>Siker, a felület a "Home" oldalra irányít át, bejelentkezve.</td>
   <td>A sikeres reigsztrálció után a "home" page jelenik meg, a várt módon.</td>
   <td>Átment</td>
@@ -461,6 +461,88 @@
   <td>Kvíz adatok megadása a kritériumoknak NEM megfelelően.</td>
   <td>Siker, hibaüzenetet dob a hibás mezőkre vonatkozó megfelelő üzenetekkel.</td>
   <td>Az oldal hivatkozik a hibásan megadott mezőkre.</td>
+  <td>Átment</td>
+ </tr>
+ </table>
+ 
+  ##### Tesztelő: Lácza Roland
+   
+ <table  style="width:100%" border="1px thin black" >
+ <tr>
+  <th>Tesztjegy</th>
+  <th>Művelet</th>
+  <th>Elvárt kimenet</th>
+  <th>Kapott kimenet</th>
+  <th>Teszt eredmény</th>
+ </tr>
+  <tr>
+  <td>H0001</td>
+  <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami előzetesen nem regisztrált a rendszerben.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó és jelszó páros nem helyes.</td>
+  <td>A képernyőn megjelenik az "INVALID_USERNAME" felirat, amely hibára utal.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0002</td>
+  <td>A bejelentkező űrlapot olyan felhasználóval töltik ki ami nem szerepel az adatbázisan.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó nem szerepel a rendszerben.</td>
+  <td>A képernyőn megjelenik az "INVALID_USERNAME" felirat, amely hibára utal.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0003</td>
+  <td>A bejelentkező űrlapot olyan jelszóval párral töltik ki ami nem szerepel az adatbázisban.</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó nem szerepel az adatbázisban.</td>
+  <td>A képernyőn megjelenik az "INVALID_PASSWORD" felirat, amely hibára utal.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0004</td>
+  <td>A bejelentkező űrlapot olyan felhasználó és jelszó párral töltik ki ami szerepel az adatbázisan.</td>
+  <td>Siker, a felület a "Home" oldalra irányít át.</td>
+  <td>A felület átriányítja a kezdőoldalra, amely jelen pillanatban a home page</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0005</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező nem üres és megfelelnek a követelményeknek.	</td>
+  <td>Siker, a felület a "Home" oldalra irányít át, bejelentkezve.</td>
+  <td>A felület átriányítja a kezdőoldalra, amely jelen pillanatban a home page</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0006</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg felel meg az email cím szabványnak és a többi mező nem üres.</td>
+  <td>Hiba, a felület kijelzi, hogy az email mezőbe írt szöveg nem megfelelő emailcím.</td>
+  <td>Megfelelően kiírja a hibát, amelyet dobnia kell.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0007</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a többi mező üres.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhasználó, jelszó és a jelszó megerősítő túl rövid vagy nincs kitöltve.</td>
+  <td>A fleület a jelszó és jelszó megerősítő hibás kitöltését jelző hibát dobja.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0008</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a jelszó mezőbe beírt karaktersorozat hossza kisebb mint 6</td>
+  <td>Hiba, a felület kijelzi, hogy a jelszó mezőbe írt karaktersorozat túl rövid.</td>
+  <td>A felület feldobja a túl rövid jelszó hibát.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0009</td>
+  <td>A regisztrációs űrlap email mezőjében a beírt szöveg megfelel az email cím szabványnak és a jelszó mezőbe beírt karaktersorozat hossza nagyobb vagy egyenlő mint 6, viszont a felhasználónév már megtalálható az adatbázisban.</td>
+  <td>Hiba, a felület kijelzi, hogy a felhaználónév már szerepel az adatbázisban, válasszon ettől különbözőt.</td>
+  <td>A felület kiírja, hogy a duplikált felhasználónév nem engedélyezett.</td>
+  <td>Átment</td>
+ </tr>
+ <tr>
+  <td>H0010</td>
+  <td>A regisztrációs oldalon a "Regisztrálok" szövegre kattintás.</td>
+  <td>Siker, az webalkamazás átirányít a bejelentkező oldalra</td>
+  <td>A felület átirányítja a kezdőlapra, amely jelen pillanatban a home oldal</td>
   <td>Átment</td>
  </tr>
  </table>

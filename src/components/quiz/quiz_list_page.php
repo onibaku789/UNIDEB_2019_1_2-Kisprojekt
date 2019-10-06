@@ -36,8 +36,8 @@ class Quiz_List_Page extends Abstract_Page {
             </tbody>
         </table>
         <?
-        
-        if($_SESSION["id"] == 8 || $_SESSION["id"] == 7 || $_SESSION["id"] == 6) {
+        $user = new User($_SESSION["id"]);
+        if($user->getPermission() > 0) {
           ?><a href="/index.php?page=create_quiz" class="btn btn-primary" style="position:fixed; bottom: 0;">Új kvíz létrehozása</a><?
         }
         $this->form_close();

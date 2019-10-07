@@ -116,12 +116,13 @@ A gombok a submit, illetve a regisztrációs oldalra való átirányításért f
 A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó megerősítés". 
 A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
 ![Register_page](./img/Regisztráció-oldal.PNG)
+
 - **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
 
-- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait.
-![Admin_page](./img/Admin-oldal.PNG)
+- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait. A "fehasználó neve" oszlopban a felhasználók neveit láthatjuk, a "jogosultság" oszlopban a felhasználók hatáskörét láthatjuk, míg az "műveletek" oszlopban pedig a felhasználók jogosultságát tudjuk meghatározni.
+![Admin_page](./img/Admin-oldal.png)
 
-- **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek.
+- **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek. 
 ![Kvíz page](./img/kvíz-oldal.PNG)<br>
 #### Üzleti folyamatok
 

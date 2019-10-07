@@ -133,6 +133,12 @@ Minden gomb által betöltött ablak emgtekinthatő és értelmezhető a dokumen
 Ugyan itt a kvíz oldalon, az oldal bal alsó sarkában megjelenő "új kvíz létrehozása" gombra kattintva hozhatunk létre kvízkérdés sorozatot. Ez a gomb csak akkor jelenik meg, ha admin jogosultsággal rendelkező felhasználó használja az oldalt.
 ![Kvíz page](./img/kvizoldal.PNG)<br>
 
+- **Kvíz létrehozása**: Ezen az oldalon tud egy admin szintű felhasználó kvízkérdéseket létrehozni. <br>
+Az oldal közepén elhelyezkedő három szövegdobozban adhatjuk meg az új kvízünk nevét, pontszámát és adhatunk hozzá egy rövid leírást, hogy a diákok tudják miről is lesz szó a kvízben. <br>
+Az oldal baloldalán pedig az új kvízünkhöz tudunk kérdéseket meghatározni. Minden kérdéshez több válaszlehetőséget tudunk megadni miután magát a kérdést meghatároztuk. Ki kell választani a válaszlehetőségek közül a helyes választ is. Ezt a kérdések mellett megjelenő kis pöttyal tudjuk megtenni. A "kérdés létrehozása" gombra kattintva tudunk a már meglévő kérdés után új kérdést megadni. Az újabb kérdéseket és a hozzájuk tartozó válaszlehetőségeket hasonlóképpen kell létrehozni, mint az első kérdést a válaszaival.<br>
+Az oldal bal alján helyezkedő "Kvíz kérdések törlése" gombra kattintva tudjuk a már meglévő kérdéseinket eltávolítani a kvízünkből. Míg a mellette lévő "Mentés" gombra kattintva tudjuk létrehozni illetve elmenteni kvízünket.
+![Kvíz létrehoz page](./img/createquiz.png)<br>
+
 - **Ranglista**: Ezen az oldalon nyomon követhetjük a felhasználók eredményeit. Minél több pontot értek el, annál előrébb kerülnek a ranglistában. A legtöbb pontot elért felhasználó a lista tetején helyezkedik el, míg alatta a második és így tovább. Az első három helyen lévő felhasználók színnel kivannak emelve a jobb és egyértelmőbb ábrázolás érdekében.
 ![Ranglista_page](./img/ranglista.png)
 

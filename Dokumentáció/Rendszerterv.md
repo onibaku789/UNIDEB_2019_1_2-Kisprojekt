@@ -107,6 +107,7 @@ ALTER TABLE `questions`<br>
  ADD PRIMARY KEY (`id`);
 </code>
 #### Felhasználói felület
+
 - **Bejelentkezés**:  A felhasználó két kitöldenő mezőt lát egymás mellett, illetve két gombot. 
 A kitöltendő mezők nevei: "Felhasználónév", "Jelszó". 
 A gombok a submit, illetve a regisztrációs oldalra való átirányításért felelősek.
@@ -117,17 +118,20 @@ A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó m
 A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
 ![Register_page](./img/Regisztráció-oldal.PNG)
 
-- **Home**: Az az oldal, ahova a felhasználó megérkezik minden egyes bejelentkezés után.
+- **Home**: Az az oldal, ahova sikeres bejelentkezés után megérkezik minden felhasználó.
+![Home page](./img/home.png)
 
 - **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait. A "fehasználó neve" oszlopban a felhasználók neveit láthatjuk, a "jogosultság" oszlopban a felhasználók hatáskörét láthatjuk, míg az "műveletek" oszlopban pedig a felhasználók jogosultságát tudjuk meghatározni.
 ![Admin_page](./img/Admin-oldal.png)
 
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek. 
 ![Kvíz page](./img/kvíz-oldal.PNG)<br>
+
 #### Üzleti folyamatok
 
 A felhasználóknak két csoportját különböztetjük meg a webalkalmazásban.<br>
 Az oktatok rendelkeznek a nagyobb jogkörrel az admin jogosultsággal rendelkezők (tehát oktatók) lehetőségei a kvízek létrehozásával bővül a sima felhasználóéval szemben.
+
 ###### Diák üzleti folyamat
 
 A diákok számára rendelkezésre álló lehetőségek a következőek:

@@ -118,13 +118,19 @@ A kitöltendő mezők nevei: "Felhasználónév", "Email", "Jelszó", "Jelszó m
 A gombok a submit, illetve a belépés oldalra való átirányításért felelősek.
 ![Register_page](./img/Regisztráció-oldal.PNG)
 
-- **Home**: Az az oldal, ahova sikeres bejelentkezés után megérkezik minden felhasználó.
+- **Home**: Az az oldal, ahova sikeres bejelentkezés után megérkezik minden felhasználó. Bal felső sarokban látható gombokkal egyértelműen navigálhatunk az oldalak között. <br>
+A "kijelentkezés gombra kattintással kijelentkezhetünk. <br>
+A "kvízek" gombra kattintással a kvíz oldalra lépünk.<br>
+A "ranglista" gombra kattintással a randlista oldalra navigálunk.<br>
+Az "admin" gombra kattintással az admin oldalt töltjük be. Ez a gomb csak akkor látható, ha admin szintű felhasználóval léptünk be az oldalra.<br>
+Minden gomb által betöltött ablak emgtekinthatő és értelmezhető a dokumentáció következő bekezdéseiben.
 ![Home page](./img/home.png)
 
-- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait. A "fehasználó neve" oszlopban a felhasználók neveit láthatjuk, a "jogosultság" oszlopban a felhasználók hatáskörét láthatjuk, míg az "műveletek" oszlopban pedig a felhasználók jogosultságát tudjuk meghatározni.
+- **Admin**: Ezen az oldalon lehet beállítani a felhasználók jogosultságait. Csak admin szintű felhasználó tud erre az oldalra lépni. A "fehasználó neve" oszlopban a felhasználók neveit láthatjuk, a "jogosultság" oszlopban a felhasználók hatáskörét láthatjuk, míg az "műveletek" oszlopban pedig a felhasználók jogosultságát tudjuk meghatározni.
 ![Admin_page](./img/Admin-oldal.png)
 
-- **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek. 
+- **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek. Egy kvízt kétszer nem lehet kitölteni, a kitöltött kvízeket ahogy a képen is lehet kátni zöld színnel jelöli az oldal. Míg minden még kitöltetlen kvíz fehér háttérrel rendelkezik és a kék színű "kvíz kezdése" szövegre kattintva kezdhetjük az adott teszt kitöltését. <br>
+Ugyan itt a kvíz oldalon, az oldal bal alsó sarkában megjelenő "új kvíz létrehozása" gombra kattintva hozhatunk létre kvízkérdés sorozatot. Ez a gomb csak akkor jelenik meg, ha admin jogosultsággal rendelkező felhasználó használja az oldalt.
 ![Kvíz page](./img/kvizoldal.PNG)<br>
 
 - **Ranglista**: Ezen az oldalon nyomon követhetjük a felhasználók eredményeit. Minél több pontot értek el, annál előrébb kerülnek a ranglistában. A legtöbb pontot elért felhasználó a lista tetején helyezkedik el, míg alatta a második és így tovább. Az első három helyen lévő felhasználók színnel kivannak emelve a jobb és egyértelmőbb ábrázolás érdekében.

@@ -125,7 +125,7 @@ A gombok a submit, illetve a belépés oldalra való átirányításért felelő
 ![Admin_page](./img/Admin-oldal.png)
 
 - **Kvíz**: Ezen az oldalon lesznek láthatóak egy táblázatban a kitölthető és kitöltött kvízek. 
-![Kvíz page](./img/kvíz-oldal.PNG)<br>
+![Kvíz page](./img/kvizoldal.PNG)<br>
 
 - **Ranglista**: Ezen az oldalon nyomon követhetjük a felhasználók eredményeit. Minél több pontot értek el, annál előrébb kerülnek a ranglistában. A legtöbb pontot elért felhasználó a lista tetején helyezkedik el, míg alatta a második és így tovább. Az első három helyen lévő felhasználók színnel kivannak emelve a jobb és egyértelmőbb ábrázolás érdekében.
 ![Ranglista_page](./img/ranglista.png)
